@@ -23,7 +23,7 @@ const courses = [
 
 app.get('/', (req,res)=>{
    //route handler
-    res.send("You're trying to access the server without a request, try accessing Localhost/3000/api/courses");
+    res.send("You're trying to access the server without a request, try accessing Localhost/3000/api/courses or Localhost/3000/api/courses/:id");
 });
 
 app.get('/api/courses', (req, res)=>{
