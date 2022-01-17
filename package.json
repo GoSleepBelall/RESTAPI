@@ -1,0 +1,24 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "This is an RESTAPI created with NodeJS and Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoSleepBelall/RESTAPI.git"
+  },
+  "author": "Syed Bilal Haider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoSleepBelall/RESTAPI/issues"
+  },
+  "homepage": "https://github.com/GoSleepBelall/RESTAPI#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "joi": "^13.1.0"
+  }
+}
