@@ -80,7 +80,7 @@ app.put('/api/courses/:id', (req, res)=>{
     //Update Coure, return the updated course
 
     course.name = req.body.name;
-    res.send(course);
+    res.status(200).send(course);
 
 });
 
