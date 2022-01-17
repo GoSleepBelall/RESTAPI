@@ -27,7 +27,7 @@ app.get('/', (req,res)=>{
 });
 
 app.get('/api/courses', (req, res)=>{
-    res.send(courses);
+    res.status(200).send(courses);
 });
 
 //api/courses/parameter
